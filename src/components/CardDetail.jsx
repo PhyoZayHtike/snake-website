@@ -19,7 +19,7 @@ function CardDetail({ datas, id }) {
       <Grid item xs={12} lg={6}>
         <Card>
           <img
-            src={`/public/img/${detail.Id}.jpg`}
+            src={`/img/${detail.Id}.jpg`}
             alt={detail.MMName}
             className="img-fluid col-12 col-md-8 col-lg-12"
           />

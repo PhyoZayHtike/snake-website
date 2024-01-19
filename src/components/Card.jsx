@@ -45,7 +45,7 @@ function Card({ datas }) {
                     component="img"
                     alt={content.MMName}
                     height="300"
-                    image={`/public/img/${content.Id}.jpg`}
+                    image={`/img/${content.Id}.jpg`}
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
